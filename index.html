@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sue Collection Ltd - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #002244;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        .banner {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .banner h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .product-card button {
+            background-color: #002244;
+            color: white;
+            padding: 10px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #002244;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><strong>SUE COLLECTION LTD</strong></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#shop">Shop Now</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contacts</a>
+        </nav>
+    </header><div class="banner">
+    <h1>We got it, buy it</h1>
+    <p>Explore a wide range of general products with unbeatable deals.</p>
+</div>
+
+<div class="section" id="shop">
+    <h2>Shop Now</h2>
+    <input type="text" placeholder="Search products...">
+    <button>Search</button>
+    <div class="products-grid">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Product">
+            <p>Product Name</p>
+            <p>$00.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Repeat for more products -->
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Sue Collection Ltd. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
